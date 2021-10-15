@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains back-end code necessaary for an e-commerce website. Using Express.js and Sequelize, the server interacts with a persistent MySQL database.
+This repository contains back-end code necessaary for an e-commerce website. Using Express.js and Sequelize, the server interacts with a persistent MySQL database that contains a site's various products, the categories those products fall into, and specific tags attached to each product.
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@ This repository contains back-end code necessaary for an e-commerce website. Usi
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Links](#links)
+- [Demo](#demo)
 - [Questions](#questions)
 
 ## Installation
@@ -32,7 +32,7 @@ $ npm run test
 
 ## Usage
 
-First initialize the schema.sql in a MySQL shell, then seed in the provided data with the following commands:
+First initialize the schema.sql in a MySQL shell, then seed in the provided data in the regular command line with the following commands:
 
 ```
 mysql> SOURCE db/schema.sql;
@@ -42,7 +42,7 @@ mysql> SOURCE db/schema.sql;
 $ node seeds/index.js
 ```
 
-The following command initializes the app:
+The following command initializes the server:
 
 ```
 $ node server.js
@@ -58,9 +58,9 @@ The Node packages [Sequelize](https://www.npmjs.com/package/sequelize), [Dotenv]
 
 This project is licensed under the MIT license.
 
-## Links
+## Demo
 
-A demo of the application can be viewed [here](#).
+A walkthrough video for how to use this code can be viewed [here](https://youtu.be/9JgFOEDMzoY).
 
 ## Questions
 
